@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+    <link rel="stylesheet" type="text/css" href="/stylesheets/bootstrap.css">
+  </head>
+  <body>
+    <div class="container-fluid">
+    <nav class="navbar navbar-inverse">
+    	<ul class="nav navbar-nav">
+    		<li class="active"><a href="">HOME</a></li>
+    		<li><a href="/signup">SIGNUP</a></li>
+    		<li><a href="">ABOUT US</a></li>
+    	</ul>
+    </nav>
+  	<h1><%= title %></h1>
+    
+    	<div class="row">
+    		<div class="col-sm-4"></div>
+    		<div class="col-sm-4">
+    		<div class="formbox">
+    			<p align="center"><b>Welcome to <%= title %></b></p>	
+    			<form action="/signup" method="post">
+    				<div class="form-group">
+		    			<label for="name">Name : </label>
+		    			<input type="text" class="form-control" name="name" >
+		    		</div>
+		    		<div class="form-group">
+		    			<label for="email">Email : </label>
+		    			<input type="email" class="form-control" name="email" >
+		    		</div>
+		    		<div class="form-group">
+		    			<label for="username">Username : </label>
+		    			<input type="text" class="form-control" name="username" >
+		    		</div>
+		    		<div class="form-group">
+		    			<label for="username">Password : </label>
+		    			<input type="text" class="form-control" name="password" >
+		    		</div>
+		    			<input type="submit" name="submit">
+		    			<p align="center"><b>Already a member? <a href="/login">LOGIN</a> now.</b></p>	
+		    			
+		    	</form>
+		    	</div>
+		    </div>
+		    <div class="col-sm-4"></div>
+    	</div>
+ </div>
+
+  </body>
+</html>

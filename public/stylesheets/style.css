@@ -1,0 +1,13 @@
+body {
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+.formbox{
+	border: 5px;
+	box-shadow: 10px 10px 20px 5px red;
+	padding: 20px;
+}
