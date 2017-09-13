@@ -14,8 +14,15 @@
     		<li><a href="">ABOUT US</a></li>
     	</ul>
     </nav>
-  	<h1><%= title %></h1>
-    
+  	
+    <%
+      if (typeof uname  !== 'undefined') 
+      { %>
+         <div class="well"><p align="center"><strong><%= uname %> </strong> &nbsp; <%= msg %></p></div>
+   <% } %>
+
+     
+      
     	<div class="row">
     		<div class="col-sm-4"></div>
     		<div class="col-sm-4">
@@ -38,6 +45,14 @@
 		    </div>
 		    <div class="col-sm-4"></div>
     	</div>
+
+      <footer>
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="foot"><p align="center"> &copy; copyright <strong>Ankit Sharma</strong></p></div>
+        </div>
+      </div>
+    </footer>
  </div>
 
   </body>

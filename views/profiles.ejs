@@ -6,7 +6,7 @@
     <link rel="stylesheet" type="text/css" href="/stylesheets/bootstrap.css">
   </head>
   <body>
-  <div class="container-fluid">
+  <div class="container">
     <nav class="navbar navbar-inverse">
     	<ul class="nav navbar-nav">
     		<li class="active"><a href="">HOME</a></li>
@@ -14,10 +14,32 @@
     		<li><a href="">ABOUT US</a></li>
     	</ul>
     </nav>
-  
-    <h1><%= title %></h1>
-    <p>Welcome to <%= title %></p>
+
+    <div class="row">
+      <div class="col-sm-4"><div class="leftbox">hello</div></div>
+      <div class="col-sm-8">
+        <div class="rightbox">
+        <h1><%= title %></h1>
+        <p>Welcome to <%= title %></p>
+        <p>Welcome to <%= title %></p>
      <p>Welcome <%= name %></p>
+     <p>this is a profile page</p>  
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="foot"><p align="center"> &copy; copyright <strong>Ankit Sharma</strong></p></div>
+        </div>
+      </div>
+    </footer>
+
+
+  
+    
+    
   </div>
   </body>
 </html>
