@@ -1,6 +1,4 @@
-body {
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
-}
+
 
 a {
   color: #00B7FF;
@@ -8,8 +6,10 @@ a {
 
 .formbox{
 	border: 5px;
-	box-shadow: 10px 10px 20px 5px red;
+	box-shadow: 10px 10px 20px 5px black;
 	padding: 20px;
+	margin: 0 auto;
+	margin-top: 50px;
 }
 
 .leftbox{
@@ -27,9 +27,3 @@ a {
 	padding: 20px;
 }
 
-.foot{
-	border: 2px;
-	box-shadow: 5px 0px 5px 5px black;
-	margin-top: 20px;
-	padding: 20px;
-}
